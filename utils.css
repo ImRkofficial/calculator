@@ -1,0 +1,44 @@
+.text-center{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 23px 3px;
+}
+.bg-red{
+    background-color: rgb(191, 191, 191);
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+    background: url(spotifybg3.png) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+
+@media only screen and (max-width:570px) {
+    .text-center{
+      font-size: 35px;
+    }
+    
+  }
+  @media only screen and (max-width:400px) {
+    .text-center{
+      font-size: 22px;
+    }
+    
+  }
+  @media only screen and (max-width:350px) {
+    .text-center{
+      font-size: 20px;
+    }
+    
+  }
